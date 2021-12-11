@@ -1,7 +1,7 @@
 import vk_api
 import time, datetime
 
-vk = vk_api.VkApi(login='+79001046313', password='dit2471',token='21ed4f26912217c25e30b271812a4f64dd076edb93dffd6ff82952a1fb1c4870b3ffe12294004914d5657')
+vk = vk_api.VkApi()
 vk.auth()
 dt = datetime.datetime.today()
 id_1 = '361649916' #Леня
@@ -31,7 +31,3 @@ while done:
         f_messages(id_2,mess_2)
         f_messages(id_2,s)
         b = dt.hour
-
-
-
-
